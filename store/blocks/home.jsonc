@@ -79,7 +79,6 @@
   "responsive-layout.desktop#desktop": {
     "children": [
       "rich-text#desktop",
-      "image#major-appliance",
       "image#desktop"
     ]
   },
