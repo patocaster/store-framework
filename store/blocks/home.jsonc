@@ -3,11 +3,10 @@
     "blocks": [
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row",
-      
+      "flex-layout.row"
     ]
-    }
-  },"info-card#button-right": {
+  },
+  "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
@@ -20,7 +19,8 @@
       "textAlignment": "center",
       "blockClass": "vintage"
     }
-  },"info-card#button-left": {
+  },
+  "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -31,14 +31,16 @@
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "metal",
+      "blockClass": "metal"
     }
-  },"flex-layout.row":{
+  },
+  "flex-layout.row": {
     "children": [
       "info-card#rethink",
-      "flex-layout.col",
+      "flex-layout.col"
     ]
-  },"info-card#rethink": {
+  },
+  "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
       "isFullModeStyle": true,
@@ -46,16 +48,19 @@
       "callToActionText": "Discover",
       "textPosition": "center"
     }
-  },"rich-text#deletar": {
+  },
+  "rich-text#deletar": {
     "props": {
       "text": "I'll be deleted soon"
     }
-  },},"flex-layout.col":{
+  },
+  "flex-layout.col": {
     "children": [
       "image#electronics",
-      "image#major-appliance",
+      "image#major-appliance"
     ]
-  },"image#electronics": {
+  },
+  "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
       "maxWidth": "100%"
